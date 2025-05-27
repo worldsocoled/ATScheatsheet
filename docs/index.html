@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Action Verbs Cheat Sheet - CareerCanvas</title>
+    <style>
+        /* Career Help Page Specific CSS */
+        .career-help {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            color: #2d3436;
+        }
+
+        .cheat-sheet-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 3px solid #6c5ce7;
+            padding-bottom: 2rem;
+        }
+
+        .cheat-sheet-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #6c5ce7, #0984e3);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .author-info {
+            text-align: right;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        .verb-section {
+            margin: 3rem 0;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verb-section::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background: #6c5ce7;
+        }
+
+        .verb-category {
+            font-size: 1.5rem;
+            color: #2d3436;
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid #0984e3;
+        }
+
+        .verb-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            list-style: none;
+            counter-reset: verb-counter;
+            padding: 0;
+        }
+
+        .verb-item {
+            padding: 0.8rem;
+            background: #f8f9fa;
+            border-radius: 5px;
+            counter-increment: verb-counter;
+            position: relative;
+            font-weight: 500;
+        }
+
+        .verb-item::before {
+            content: counter(verb-counter) ".";
+            margin-right: 0.5rem;
+            color: #6c5ce7;
+            font-weight: bold;
+        }
+
+        .example-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        .pro-tips {
+            background: #fff3e0;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 3rem 0;
+            border-left: 4px solid #ff9800;
+        }
+
+        @media (max-width: 768px) {
+            .career-help {
+                padding: 1rem;
+            }
+            
+            .verb-list {
+                grid-template-columns: 1fr;
+            }
+            
+            .cheat-sheet-header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .ai-bonus {
+            background: #f0f4c3;
+            border-left: 4px solid #cddc39;
+        }
+
+        .main-footer {
+            background: #2d3436;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="career-help">
+        <header class="cheat-sheet-header">
+            <h1>ATS Action Verbs Cheat Sheet</h1>
+            <p>Your guide for using powerful verbs to showcase achievements</p>
+            <div class="author-info">
+                Article By: Nichole Higgins, 05/2025
+            </div>
+        </header>
+
+        <!-- Leadership Section -->
+        <section class="verb-section">
+            <h2 class="verb-category">Leadership & Management</h2>
+            <ol class="verb-list">
+                <li class="verb-item">Led</li>
+                <li class="verb-item">Managed</li>
+                <li class="verb-item">Directed</li>
+                <li class="verb-item">Supervised</li>
+                <li class="verb-item">Mentored</li>
+                <li class="verb-item">Orchestrated</li>
+                <li class="verb-item">Coordinated</li>
+                <li class="verb-item">Pioneered</li>
+                <li class="verb-item">Championed</li>
+                <li class="verb-item">Spearheaded</li>
+            </ol>
+            <div class="example-box">
+                <em>“Led a 12-person team to streamline workflows, cutting project delivery time by 25%.”</em>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="verb-section">
+            <h2 class="verb-category">Technical & Hard Skills</h2>
+            <ol class="verb-list" start="11">
+                <li class="verb-item">Developed</li>
+                <li class="verb-item">Engineered</li>
+                <li class="verb-item">Programmed</li>
+                <li class="verb-item">Automated</li>
+                <li class="verb-item">Debugged</li>
+                <li class="verb-item">Optimized</li>
+                <li class="verb-item">Integrated</li>
+                <li class="verb-item">Architected</li>
+                <li class="verb-item">Customized</li>
+                <li class="verb-item">Validated</li>
+            </ol>
+            <div class="example-box">
+                <em>“Developed an AI-driven chatbot that reduced customer service inquiries by 40%.”</em>
+            </div>
+        </section>
+
+        <!-- Communication Section -->
+        <section class="verb-section">
+            <h2 class="verb-category">Communication & Collaboration</h2>
+            <ol class="verb-list" start="21">
+                <li class="verb-item">Negotiated</li>
+                <li class="verb-item">Presented</li>
+                <li class="verb-item">Authored</li>
+                <li class="verb-item">Facilitated</li>
+                <li class="verb-item">Liaised</li>
+                <li class="verb-item">Mediated</li>
+                <li class="verb-item">Influenced</li>
+                <li class="verb-item">Synthesized</li>
+                <li class="verb-item">Translated</li>
+                <li class="verb-item">Promoted</li>
+            </ol>
+            <div class="example-box">
+                <em>“Authored 50+ technical manuals adopted company-wide, reducing onboarding time by 30%.”</em>
+            </div>
+        </section>
+
+        <!-- Innovation Section -->
+        <section class="verb-section">
+            <h2 class="verb-category">Innovation & Problem-Solving</h2>
+            <ol class="verb-list" start="31">
+                <li class="verb-item">Designed</li>
+                <li class="verb-item">Innovated</li>
+                <li class="verb-item">Revamped</li>
+                <li class="verb-item">Resolved</li>
+                <li class="verb-item">Troubleshot</li>
+                <li class="verb-item">Streamlined</li>
+                <li class="verb-item">Transformed</li>
+                <li class="verb-item">Overhauled</li>
+                <li class="verb-item">Piloted</li>
+                <li class="verb-item">Conceptualized</li>
+            </ol>
+            <div class="example-box">
+                <em>“Revamped a legacy CRM system, boosting sales team productivity by 35%.”</em>
+            </div>
+        </section>
+
+        <!-- Analytical Section -->
+        <section class="verb-section">
+            <h2 class="verb-category">Analytical & Data-Driven</h2>
+            <ol class="verb-list" start="41">
+                <li class="verb-item">Analyzed</li>
+                <li class="verb-item">Forecasted</li>
+                <li class="verb-item">Audited</li>
+                <li class="verb-item">Quantified</li>
+                <li class="verb-item">Modeled</li>
+                <li class="verb-item">Evaluated</li>
+                <li class="verb-item">Benchmarked</li>
+                <li class="verb-item">Measured</li>
+                <li class="verb-item">Interpreted</li>
+                <li class="verb-item">Predicted</li>
+            </ol>
+            <div class="example-box">
+                <em>“Analyzed customer churn data to identify trends, reducing attrition by 22% in Q3.”</em>
+            </div>
+        </section>
+
+        <!-- AI Bonus Section -->
+        <section class="verb-section ai-bonus">
+            <h2 class="verb-category">AI-Specific Verbs</h2>
+            <ol class="verb-list" start="51">
+                <li class="verb-item">Automated</li>
+                <li class="verb-item">Virtualized</li>
+                <li class="verb-item">Scaled</li>
+                <li class="verb-item">Leveraged (e.g., “Leveraged NLP models to...”)</li>
+                <li class="verb-item">Trained (e.g., “Trained ML algorithms to...”)</li>
+            </ol>
+        </section>
+
+        <!-- Pro Tips Section -->
+        <div class="pro-tips">
+            <h3>3 Pro Tips for Using These Verbs</h3>
+            <ol>
+                <li><strong>Match the Job Description:</strong> Pull verbs directly from the job post</li>
+                <li><strong>Quantify Results:</strong> Always pair verbs with metrics</li>
+                <li><strong>Avoid Repetition:</strong> Use varied verbs for dynamic resumes</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>WorldSoColed</h3>
+                <p>Pushing the boundaries of digital expression through thoughtful content and innovative design.</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 - WorldSoColed Web Artistry. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
